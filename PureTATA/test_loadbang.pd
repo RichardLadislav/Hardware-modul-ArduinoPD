@@ -1,0 +1,9 @@
+#N canvas 638 47 450 300 12;
+#N canvas 96 96 450 300 init 1;
+#X obj 105 109 loadbang;
+#X msg 102 150 500;
+#X obj 117 200 s init;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X restore 104 189 pd init;
+#X floatatom 190 210 5 0 0 0 - init - 0;
